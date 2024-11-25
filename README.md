@@ -29,7 +29,7 @@ SnippetBase is a platform for developers to organize, share, and discover reusab
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/snippetbase.git
+   git clone https://github.com/arashveysi3/snippetbase.git
 
    ```
 
