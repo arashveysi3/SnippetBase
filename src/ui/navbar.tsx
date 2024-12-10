@@ -4,7 +4,7 @@ import { Menu } from "lucide-react";
 export default function Navbar() {
   return (
     <div
-      className="w-full h-14 flex flex-row-reverse mb-2 py-1 gap-2 items-center border-b border-gray-100 backdrop-blur-sm bg-gray-100 dark:bg-gray-900
+      className="h-14 w-full flex flex-row-reverse mb-2 py-1 gap-2 items-center border-b border-gray-100 backdrop-blur-sm bg-gray-100 dark:bg-gray-900
 "
     >
       <Button

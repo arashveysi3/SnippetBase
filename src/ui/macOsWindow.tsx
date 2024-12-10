@@ -29,7 +29,7 @@ const MacOSWindow: FC<MacOSWindowProps> = ({ codeSnippet, title }) => {
           </div>
         </div>
 
-        <div className="p-4 absolute scale-0 dark:scale-100">
+        <div className="absolute p-4 h-54 w-full scale-0 dark:scale-100 bg-transparent">
           <SyntaxHighlighter
             language="typescript"
             style={atomOneDark}
@@ -38,11 +38,11 @@ const MacOSWindow: FC<MacOSWindowProps> = ({ codeSnippet, title }) => {
             {codeSnippet}
           </SyntaxHighlighter>
         </div>
-        <div className="p-4 scale-100 dark:scale-0">
+        <div className="p-4 h-48 w-full scale-100 dark:scale-0">
           <SyntaxHighlighter
             language="typescript"
             style={atomOneLight}
-            wrapLines={true}
+            wrapLongLines={true}
           >
             {codeSnippet}
           </SyntaxHighlighter>
